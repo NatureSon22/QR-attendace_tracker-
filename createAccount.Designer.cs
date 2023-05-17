@@ -42,21 +42,23 @@
             this.label6 = new System.Windows.Forms.Label();
             this.cmbSchoolPosition = new Guna.UI2.WinForms.Guna2ComboBox();
             this.btnSubmit = new Guna.UI2.WinForms.Guna2Button();
-            this.pbRevealPassword = new Guna.UI2.WinForms.Guna2PictureBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
+            this.pbRevealPassword = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbRevealPassword)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(38, 28);
+            this.textBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(51, 41);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(601, 135);
+            this.textBox1.Size = new System.Drawing.Size(601, 121);
             this.textBox1.TabIndex = 10;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
@@ -64,7 +66,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(177, 145);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(190, 174);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 18);
             this.label1.TabIndex = 1;
@@ -72,6 +75,8 @@
             // 
             // txtSchoolID
             // 
+            this.txtSchoolID.BorderColor = System.Drawing.Color.White;
+            this.txtSchoolID.BorderRadius = 5;
             this.txtSchoolID.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSchoolID.DefaultText = "";
             this.txtSchoolID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -81,7 +86,7 @@
             this.txtSchoolID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSchoolID.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSchoolID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSchoolID.Location = new System.Drawing.Point(273, 139);
+            this.txtSchoolID.Location = new System.Drawing.Point(286, 168);
             this.txtSchoolID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSchoolID.Name = "txtSchoolID";
             this.txtSchoolID.Padding = new System.Windows.Forms.Padding(5, 1, 1, 5);
@@ -95,7 +100,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(140, 210);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(153, 231);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 18);
             this.label2.TabIndex = 1;
@@ -105,7 +111,8 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(167, 271);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(180, 292);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 18);
             this.label3.TabIndex = 1;
@@ -113,6 +120,8 @@
             // 
             // txtFN
             // 
+            this.txtFN.BorderColor = System.Drawing.Color.White;
+            this.txtFN.BorderRadius = 5;
             this.txtFN.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtFN.DefaultText = "";
             this.txtFN.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -122,7 +131,7 @@
             this.txtFN.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtFN.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFN.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtFN.Location = new System.Drawing.Point(273, 265);
+            this.txtFN.Location = new System.Drawing.Point(286, 286);
             this.txtFN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtFN.Name = "txtFN";
             this.txtFN.Padding = new System.Windows.Forms.Padding(5, 1, 1, 5);
@@ -136,7 +145,8 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(151, 328);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(164, 349);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(101, 18);
             this.label4.TabIndex = 1;
@@ -144,6 +154,8 @@
             // 
             // txtMN
             // 
+            this.txtMN.BorderColor = System.Drawing.Color.White;
+            this.txtMN.BorderRadius = 5;
             this.txtMN.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMN.DefaultText = "";
             this.txtMN.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -153,7 +165,7 @@
             this.txtMN.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMN.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMN.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMN.Location = new System.Drawing.Point(273, 322);
+            this.txtMN.Location = new System.Drawing.Point(286, 343);
             this.txtMN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMN.Name = "txtMN";
             this.txtMN.Padding = new System.Windows.Forms.Padding(5, 1, 1, 5);
@@ -167,7 +179,8 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(168, 388);
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(181, 409);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(84, 18);
             this.label5.TabIndex = 1;
@@ -175,6 +188,8 @@
             // 
             // txtLN
             // 
+            this.txtLN.BorderColor = System.Drawing.Color.White;
+            this.txtLN.BorderRadius = 5;
             this.txtLN.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtLN.DefaultText = "";
             this.txtLN.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -184,7 +199,7 @@
             this.txtLN.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtLN.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLN.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtLN.Location = new System.Drawing.Point(273, 382);
+            this.txtLN.Location = new System.Drawing.Point(286, 403);
             this.txtLN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtLN.Name = "txtLN";
             this.txtLN.Padding = new System.Windows.Forms.Padding(5, 1, 1, 5);
@@ -198,7 +213,8 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(174, 451);
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(187, 468);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 18);
             this.label6.TabIndex = 1;
@@ -207,6 +223,8 @@
             // cmbSchoolPosition
             // 
             this.cmbSchoolPosition.BackColor = System.Drawing.Color.Transparent;
+            this.cmbSchoolPosition.BorderColor = System.Drawing.Color.White;
+            this.cmbSchoolPosition.BorderRadius = 5;
             this.cmbSchoolPosition.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbSchoolPosition.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSchoolPosition.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -217,45 +235,34 @@
             this.cmbSchoolPosition.Items.AddRange(new object[] {
             "Student",
             "Professor/Instructor"});
-            this.cmbSchoolPosition.Location = new System.Drawing.Point(273, 201);
+            this.cmbSchoolPosition.Location = new System.Drawing.Point(286, 222);
             this.cmbSchoolPosition.Name = "cmbSchoolPosition";
             this.cmbSchoolPosition.Size = new System.Drawing.Size(258, 36);
             this.cmbSchoolPosition.TabIndex = 2;
             // 
             // btnSubmit
             // 
+            this.btnSubmit.BorderRadius = 3;
             this.btnSubmit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnSubmit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnSubmit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnSubmit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSubmit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSubmit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.ForeColor = System.Drawing.Color.White;
-            this.btnSubmit.Location = new System.Drawing.Point(273, 520);
+            this.btnSubmit.Location = new System.Drawing.Point(285, 566);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(180, 45);
             this.btnSubmit.TabIndex = 7;
             this.btnSubmit.Text = "SUBMIT";
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
-            // pbRevealPassword
-            // 
-            this.pbRevealPassword.BackColor = System.Drawing.Color.Transparent;
-            this.pbRevealPassword.Image = global::attendance_tracker.Properties.Resources.icons8_eye_16;
-            this.pbRevealPassword.ImageRotate = 0F;
-            this.pbRevealPassword.Location = new System.Drawing.Point(490, 449);
-            this.pbRevealPassword.Name = "pbRevealPassword";
-            this.pbRevealPassword.Size = new System.Drawing.Size(25, 25);
-            this.pbRevealPassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbRevealPassword.TabIndex = 11;
-            this.pbRevealPassword.TabStop = false;
-            this.pbRevealPassword.UseTransparentBackground = true;
-            this.pbRevealPassword.Click += new System.EventHandler(this.pbRevealPassword_Click);
-            // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(274, 485);
+            this.linkLabel1.ForeColor = System.Drawing.Color.White;
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(287, 502);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(150, 14);
             this.linkLabel1.TabIndex = 12;
@@ -265,6 +272,8 @@
             // 
             // txtPassword
             // 
+            this.txtPassword.BorderColor = System.Drawing.Color.White;
+            this.txtPassword.BorderRadius = 5;
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPassword.DefaultText = "";
             this.txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -274,7 +283,7 @@
             this.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPassword.Location = new System.Drawing.Point(273, 442);
+            this.txtPassword.Location = new System.Drawing.Point(286, 459);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Padding = new System.Windows.Forms.Padding(5, 1, 1, 5);
@@ -284,11 +293,26 @@
             this.txtPassword.Size = new System.Drawing.Size(257, 37);
             this.txtPassword.TabIndex = 13;
             // 
+            // pbRevealPassword
+            // 
+            this.pbRevealPassword.BackColor = System.Drawing.Color.Transparent;
+            this.pbRevealPassword.Image = global::attendance_tracker.Properties.Resources.icons8_eye_16;
+            this.pbRevealPassword.ImageRotate = 0F;
+            this.pbRevealPassword.Location = new System.Drawing.Point(503, 465);
+            this.pbRevealPassword.Name = "pbRevealPassword";
+            this.pbRevealPassword.Size = new System.Drawing.Size(25, 25);
+            this.pbRevealPassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbRevealPassword.TabIndex = 11;
+            this.pbRevealPassword.TabStop = false;
+            this.pbRevealPassword.UseTransparentBackground = true;
+            this.pbRevealPassword.Click += new System.EventHandler(this.pbRevealPassword_Click);
+            // 
             // createAccount
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(680, 582);
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ClientSize = new System.Drawing.Size(696, 621);
             this.Controls.Add(this.pbRevealPassword);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.linkLabel1);

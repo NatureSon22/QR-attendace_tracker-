@@ -19,6 +19,7 @@ namespace attendance_tracker
             createAccount.TopLevel = false;
             panel1.Controls.Add(createAccount);
             createAccount.Show();
+            guna2Button1.FillColor = ColorTranslator.FromHtml("#00171F");
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

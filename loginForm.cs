@@ -23,7 +23,10 @@ namespace attendance_tracker
 
         private void Form1_Load(object sender, EventArgs e)
         {
-          
+            this.BackColor = ColorTranslator.FromHtml("#00171F");
+            textBox1.BackColor = ColorTranslator.FromHtml("#00171F");
+            btnLogIn.ForeColor = ColorTranslator.FromHtml("#00171F");
+
         }
 
         private void lblLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -55,11 +58,13 @@ namespace attendance_tracker
 
                 string username = $"{name[0]} {name[1].Substring(0, 1)}. {name[2]}";
                 string position = dataTable.Rows[0]["school_position"].ToString();
-                 
 
                 if(position == "Student")
                 {
-
+                    string id = txtSchoolID.Text;
+                    StudentSystemForm form = new StudentSystemForm(username, position, name, id);
+                    form.Show();
+                    this.Hide();
                 } else
                 {
                     TeacherSystemForm form = new TeacherSystemForm(username, position, name);
@@ -70,6 +75,25 @@ namespace attendance_tracker
             {
                 MessageBox.Show("Account does not exist!", "STATUS");
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ForgotPassword form = new ForgotPassword(this);
+            form.Show();
+            this.Opacity= 0.3;
+        }
+
+        private void btnLogIn_MouseEnter(object sender, EventArgs e)
+        {
+            btnLogIn.FillColor = ColorTranslator.FromHtml("#D09B0A");
+            btnLogIn.Cursor = Cursors.Hand;
+        }
+
+        private void btnLogIn_MouseLeave(object sender, EventArgs e)
+        {
+            btnLogIn.FillColor = Color.FromArgb(94, 148, 255);
+            btnLogIn.Cursor = Cursors.Default;
         }
     }
 }
